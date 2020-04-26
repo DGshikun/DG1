@@ -56,6 +56,6 @@ public class Student {
 		System.out.println("������"+stu3.getStuName());
 		System.out.println("���䣺"+stu3.getStuAge());
 		System.out.println("רҵ��"+stu3.getStuMajor());
-		1234567
+		666
 	}
 }
