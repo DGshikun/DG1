@@ -1,6 +1,6 @@
-//Ñ§ÉúÀà
+//Ñ§ï¿½ï¿½ï¿½ï¿½
 public class Student {
-	//ÊôÐÔ
+	//ï¿½ï¿½ï¿½ï¿½
 	String stuName;
 	int stuAge;
 	String stuMajor;//×¨Òµ
@@ -23,38 +23,39 @@ public class Student {
 	public void setStuMajor(String stuMajor) {
 		this.stuMajor = stuMajor;
 	}
-	//»ñµÃÑ§ÉúÐÅÏ¢µÄ·½·¨
+	//ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½Ä·ï¿½ï¿½ï¿½
 	void getStuInfo(String name,int age,String major){
 		stuName=name;
 		stuAge=age;
 		stuMajor=major;
 	}
-	//´òÓ¡Ñ§ÉúÐÅÏ¢µÄ·½·¨
+	//ï¿½ï¿½Ó¡Ñ§ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½Ä·ï¿½ï¿½ï¿½
 	void printInfo(){
-		System.out.println("ÐÕÃû:"+stuName);
-		System.out.println("ÄêÁä£º"+stuAge);
-		System.out.println("×¨Òµ£º"+stuMajor);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½:"+stuName);
+		System.out.println("ï¿½ï¿½ï¿½ä£º"+stuAge);
+		System.out.println("×¨Òµï¿½ï¿½"+stuMajor);
 	}
-	//main·½·¨
+	//mainï¿½ï¿½ï¿½ï¿½
 	public static void main(String[] args) {
-		//ÊµÀý»¯Ò»¸öÑ§ÉúµÄ¶ÔÏó
+		//Êµï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½
 		Student stu1=new Student();
-		stu1.getStuInfo("Àîºì", 20, "Èí¼þ¹¤³Ì");
+		stu1.getStuInfo("ï¿½ï¿½ï¿½", 20, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		stu1.printInfo();
 		
 		System.out.println("==================");
-		//ÊµÀý»¯µÚ¶þ¸öÑ§ÉúµÄ¶ÔÏó
+		//Êµï¿½ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½
 		Student stu2=new Student();
-		stu2.getStuInfo("ÑîÍþ", 30, "Èí¼þ¹¤³Ì");
+		stu2.getStuInfo("ï¿½ï¿½ï¿½ï¿½", 30, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		stu2.printInfo();
 		
 		System.out.println("==================");
 		Student stu3=new Student();
-		stu3.setStuName("ÀîÄþ");
+		stu3.setStuName("ï¿½ï¿½ï¿½ï¿½");
 		stu3.setStuAge(56);
-		stu3.setStuMajor("Ìå²Ù");
-		System.out.println("ÐÕÃû£º"+stu3.getStuName());
-		System.out.println("ÄêÁä£º"+stu3.getStuAge());
-		System.out.println("×¨Òµ£º"+stu3.getStuMajor());
+		stu3.setStuMajor("ï¿½ï¿½ï¿½");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+stu3.getStuName());
+		System.out.println("ï¿½ï¿½ï¿½ä£º"+stu3.getStuAge());
+		System.out.println("×¨Òµï¿½ï¿½"+stu3.getStuMajor());
+		1234567
 	}
 }
